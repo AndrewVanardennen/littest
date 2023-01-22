@@ -1,0 +1,17 @@
+{
+  "name": "littest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lit": "^2.6.1"
+  },
+  "devDependencies": {
+    "rollup": "^3.10.1"
+  }
+}
