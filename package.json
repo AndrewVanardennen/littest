@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "rollup -c -w"
+    "start": "rollup -c -w",
+    "build": "rollup -c",
+    "server": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +15,9 @@
     "lit": "^2.6.1"
   },
   "devDependencies": {
-    "rollup": "^3.10.1"
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "rollup": "^3.10.1",
+    "koa": "^2.14.1",
+    "koa-static": "^5.0.0"
   }
 }
